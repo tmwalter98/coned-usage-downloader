@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "coned-usage-downloader"
+version = "0.1.0"
+description = ""
+authors = ["Timothy Walter <tmwalter98@gmail.com>"]
+readme = "README.md"
+packages = [{include = "coned_usage_downloader"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.9.1"
+httpx = "^0.24.0"
+webdriver-manager = "^3.8.6"
+inflection = "^0.5.1"
+SQLAlchemy = "^2.0.13"
+pandas = "^2.0.1"
+psycopg2-binary = "^2.9.6"
+selenium-wire = "^5.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

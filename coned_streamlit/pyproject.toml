@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "coned-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Timothy Walter <tmwalter98@gmail.com>"]
+readme = "README.md"
+packages = [{include = "coned_streamlit"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.22.0"
+inflection = "^0.5.1"
+SQLAlchemy = "^2.0.13"
+pandas = "^2.0.1"
+psycopg2-binary = "^2.9.6"
+plotly = "^5.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
